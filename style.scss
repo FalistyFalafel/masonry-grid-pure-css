@@ -1,0 +1,21 @@
+body,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    break-inside: avoid;
+}
+
+img{
+    display: block;
+    width: 100%;
+    margin-bottom: var(--gap);
+}
+
+ul{
+    column-count: 3;
+    --gap: 10px;
+    column-gap: var(--gap);
+    padding: var(--gap);
+}

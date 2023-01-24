@@ -1,0 +1,24 @@
+body,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin-bottom: var(--gap);
+}
+
+ul {
+  -moz-column-count: 3;
+       column-count: 3;
+  --gap: 10px;
+  -moz-column-gap: var(--gap);
+       column-gap: var(--gap);
+  padding: var(--gap);
+}/*# sourceMappingURL=style.min.css.map */
